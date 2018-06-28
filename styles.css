@@ -7,12 +7,13 @@ body {
     #562385 0%,
     #3c0758 100%
   );
+  overflow-x: hidden;
   /*background: radial-gradient(
     674.6px at 17.43% 24.02%,
     #9b51e0 0%,
     #bb6bd9 100%
   );*/
-  font-family: Avenir;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
   color: white;
   padding: 0;
   margin: 0;
@@ -24,6 +25,7 @@ body {
 .section {
   width: 100%;
   padding: 50px 50px;
+  line-height: 2em;
 }
 
 .row {
