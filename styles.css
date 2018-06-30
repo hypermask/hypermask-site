@@ -2,11 +2,7 @@ html {
   background-color: #3c0758;
 }
 body {
-  background: radial-gradient(
-    674.6px at 17.43% 24.02%,
-    #562385 0%,
-    #3c0758 100%
-  );
+  background: radial-gradient(674.6px at 17.43% 24.02%, #562385 0%, #3c0758 100%);
   overflow-x: hidden;
   /*background: radial-gradient(
     674.6px at 17.43% 24.02%,
@@ -25,7 +21,7 @@ body {
 .section {
   width: 100%;
   padding: 50px 50px;
-  line-height: 2em;
+  /*line-height: 2em;*/
 }
 
 .row {
@@ -197,13 +193,20 @@ h6 {
 .profile {
   text-decoration: none;
   font-size: 16pt;
-  color: white;
+  color: #3c0758;
   margin: 25px;
+  padding: 15px 20px;
+  background-color: #ffffffe3;
+  border-radius: 4px;
+}
+.profile:hover {
+  background-color: white;
 }
 .profile img {
   width: 150px;
   border-radius: 75px;
-  box-shadow: 0px 1px 3px #0000008a;
+  /*box-shadow: 0px 1px 3px #0000008a;*/
+  border: 2px solid #3c0757;
   margin-bottom: 10px;
 }
 .how-works {
