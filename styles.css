@@ -44,15 +44,36 @@ body {
 button {
   font-family: inherit;
   padding: 10px 20px;
-  background-color: #73279a;
+  background-color: #571479;
   color: white;
   border: none;
   border-radius: 4px;
   font-size: 13pt;
   cursor: pointer;
+  margin: 0px 2px;
 }
-button:hover {
+button.fill:hover {
+  background-color: #7b2ca4;
+}
+button.outline {
+  border: 2px solid #571479;
+  padding: 8px 18px;
+  color: #571479;
+  background-color: white;
+}
+button.outline:hover {
+  color: white;
   background-color: #571479;
+}
+button.outline-white {
+  border: 2px solid white;
+  padding: 8px 18px;
+  color: white;
+  background-color: transparent;
+}
+button.outline-white:hover {
+  color: #571479;
+  background-color: white;
 }
 
 .section.white {
@@ -145,10 +166,14 @@ h6 {
   z-index: 20;
   position: relative;
 }
+#header-buttons {
+  margin: 50px 0px 30px 0px;
+}
 
 .tagline {
   text-align: center;
-  margin-bottom: 75px;
+  /*margin-b*/
+  ottom: 75px;
 }
 .tagline h2 {
   font-size: 50px;
@@ -160,9 +185,10 @@ h6 {
   margin: 0px;
 }
 .desc {
-  background: #953fb5;
+  background: #3c0757;
   column-count: 2;
   padding: 50px 100px;
+  color: #ffffffab;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.05) inset;
 }
 .desc p {
